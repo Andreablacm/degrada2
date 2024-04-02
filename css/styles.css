@@ -18,4 +18,49 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: black;
+}
+.box-1 {
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  background-image: linear-gradient(red 33%, blue 33% 66%, gold 66% 100%);
+}
+.box-2 {
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  background-image: linear-gradient(to right, black 33%, gold 33% 66%, red 66% 100%);
+}
+.box-3 {
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  background-image: linear-gradient(cyan 35%, white 35% 40%, black 40% 60%, white 60% 65%, cyan 65% 100%);
+}
+.box-4 {
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  background-image: linear-gradient(to right, green 30%, transparent 30% 100%), linear-gradient(gold 50%, red 50% 100%);
+}
+.box-5 {
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  background-image: linear-gradient(130deg, green 40%, gold 40% 60%, red 60% 100%);
+}
+.box-6 {
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid white;
+  background-image: linear-gradient(115deg, blue 20%, transparent 20% 100%),
+    linear-gradient(140deg, gold 40%, transparent 40% 100%), linear-gradient(168deg, red 70%, transparent 70% 100%),
+    linear-gradient(170deg, white 80%, transparent 80% 100%), linear-gradient(170deg, green 80%, transparent 780% 100%);
 }
